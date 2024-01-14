@@ -1,6 +1,8 @@
-const mongoose=require("mongoose")
+const mongoose = require("mongoose");
 
-const connection=mongoose.connect("mongodb+srv://shivam_m_7:jl9fwLcY8Sb6mOPF@cluster0.lzdupya.mongodb.net/?retryWrites=true&w=majority")
-module.exports={
-    connection
-}
+const connection = mongoose.connect(
+  "mongodb+srv://sunaina:sunaina1997@cluster0.timl6kp.mongodb.net/?retryWrites=true&w=majority"
+);
+module.exports = {
+  connection,
+};
